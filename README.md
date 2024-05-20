@@ -8,7 +8,7 @@ The purpose of this repository is to provide a simple tool for converting geneti
 
 ## Scripts
 
-### * `fasta_to_nexus.py`
+### fasta_to_nexus.py
 
 This script reads a FASTA file and outputs the corresponding NEXUS file content to the standard output.
 
@@ -26,13 +26,13 @@ To run the script, use the following command:
 python fasta_to_nexus.py <input.fasta>
 ```
 
-### * `test_fasta_to_nexus.py`
+### test_fasta_to_nexus.py
 
 This script contains unit tests for the `fasta_to_nexus.py´ script to ensure that each function works as expected.
 
 #### Functions
 
-* `test_fasta_parser(self)`: Compares the expected output with the output given by the fasta parser function.
+- `test_fasta_parser(self)`: Compares the expected output with the output given by the fasta parser function.
 - `test_nexus_header(self)`: Compares the expected output with the output given by the nexus header function.
 - `test_nexus_matrix(self)`: Compares the expected output with the output given by the nexus matrix function.
 
