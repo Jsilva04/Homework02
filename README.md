@@ -25,5 +25,21 @@ To run the script, use the following command:
 ```bash
 python fasta_to_nexus.py <input.fasta>
 ```
+
+### `test_fasta_to_nexus.py´
+
+This script contains unit tests for the `fasta_to_nexus.py´ script to ensure that each function works as expected.
+
+#### Functions
+
+- `test_fasta_parser(self)`: Compares the expected output with the output given by the fasta parser function.
+- `test_nexus_header(self)`: Compares the expected output with the output given by the nexus header function.
+- `test_nexus_matrix(self)`: Compares the expected output with the output given by the nexus matrix function.
+
+#### Usage
+```bash
+python -m unittest test_fasta_to_nexus.py
+```
+
 ## License
 MIT License
