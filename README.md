@@ -26,7 +26,7 @@ To run the script, use the following command:
 python fasta_to_nexus.py <input.fasta>
 ```
 
-### `test_fasta_to_nexus.py´
+### `test_fasta_to_nexus.py`
 
 This script contains unit tests for the `fasta_to_nexus.py´ script to ensure that each function works as expected.
 
